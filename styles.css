@@ -185,7 +185,59 @@ body {
 }
 
 /* Fourth Section Styles */
+.fourth-section{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.data-container{
+  background-color: rgb(40, 94, 255);
+  width: 70%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  border-radius: 10px;
+}
+
+.text-area {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+
+.text-area span{
+  font-weight: lighter;
+  font-size: 1.25;
+}
+
+.button-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondary-button{
+  background-color: rgb(40, 94, 255);
+  color: white;
+  outline: none;
+  border-radius: 5px;
+
+  font-size: 1.20rem;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: 1px solid white;
+}
 
 /* Footer Styles */
 .footer a,
